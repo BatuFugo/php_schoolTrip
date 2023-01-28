@@ -1,0 +1,122 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-transition: all .2s;
+	-moz-transition: all .2s;
+	-ms-transition: all .2s;
+	-o-transition: all .2s;
+	transition: all .2s;
+}
+
+html {
+	height: 100%;
+}
+
+.title{
+    margin-top: 40px;
+    text-align: center;
+    display: block;
+    color: rgb(80, 80, 80);
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    padding: 20px;
+}
+
+body { 
+    display: inline;
+	background: -webkit-linear-gradient(90deg, #EC6F66 10%, #F3A183 90%); /* Chrome 10+, Saf5.1+ */
+	background:    -moz-linear-gradient(90deg, #EC6F66 10%, #F3A183 90%); /* FF3.6+ */
+	background:     -ms-linear-gradient(90deg, #EC6F66 10%, #F3A183 90%); /* IE10 */
+	background:      -o-linear-gradient(90deg, #EC6F66 10%, #F3A183 90%); /* Opera 11.10+ */
+	background:         linear-gradient(90deg, #EC6F66 10%, #F3A183 90%); /* W3C */
+	font-family: 'Raleway', sans-serif; 
+	font-size: 20px; 
+}
+
+#header-container {
+	display: inline;
+  position: absolute;
+	width: 320px;
+  height: 55px;
+	left: 50%;
+  top: 50%;
+	margin-left: -160px;
+  margin-top: -87px;
+}
+
+/* Select style here */
+
+select {
+    font-weight: bold;
+	margin:  auto;
+	color: #EC6F66;
+	width: 310px;
+	padding: 15px;
+	height: 25px;
+	cursor: pointer;
+	background: url(arrow_down.png) 295px 12px no-repeat white;
+}
+
+select:hover {
+	background-color: transparent;
+	color: white;
+	padding: 15px 5px 15px 25px;
+}
+
+select option {
+	background-color: white;
+	color: gray;
+	width: 310px;
+	padding: 10px 15px;
+	height: 20px;
+	cursor: pointer;
+}
+
+select option:hover {
+	padding-left: 25px;
+	width: 270px;
+	color: #EC6F66;
+}
+
+
+.noselect {
+    -webkit-touch-callout: none;
+      -webkit-user-select: none;
+       -khtml-user-select: none;
+         -moz-user-select: none;
+          -ms-user-select: none;
+              user-select: none;
+          -webkit-tap-highlight-color: transparent;
+  }
+  
+input {
+    margin-right: auto;
+    margin-top: 450px;
+    margin-left: 885px;
+      width: 150px;
+      height: 50px;
+      cursor: pointer;
+      font-size: 20px;
+      font-weight: bold;
+      color: #EC6F66;
+      background: white;
+      border: 1px solid black;
+      box-shadow: 5px 5px 0 black,
+          -5px -5px 0 black,
+          -5px 5px 0 black,
+          5px -5px 0 black;
+      transition: 500ms ease-in-out;
+  }
+  
+  input:hover {
+      box-shadow: 20px 5px 0 black, -20px -5px 0 black;
+  }
+  input:focus {
+      outline: none;
+  }
